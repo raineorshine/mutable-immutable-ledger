@@ -1,6 +1,6 @@
 {
-  "name": "hash-ledger",
-  "description": "",
+  "name": "mutable-immutable-ledger",
+  "description": "An Ethereum smart contract that allows anyone to store mutable or immutable data.",
   "version": "0.1.0",
   "author": {
     "name": "Raine Revere",

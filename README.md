@@ -1,11 +1,5 @@
 An Ethereum smart contract that allows anyone to store mutable or immutable data.
 
-## Installation
-
-```
-npm install
-```
-
 ## Usage
 
 Add data:
