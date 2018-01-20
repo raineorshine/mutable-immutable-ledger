@@ -1,5 +1,5 @@
-const HashLedger = artifacts.require("./HashLedger.sol")
+const MutableImmutableLedger = artifacts.require("./MutableImmutableLedger.sol")
 
 module.exports = function(deployer) {
-  deployer.deploy(HashLedger)
+  deployer.deploy(MutableImmutableLedger)
 }
