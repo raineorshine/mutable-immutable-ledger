@@ -6,9 +6,9 @@ contract MutableImmutableLedger {
    * EVENTS
    ***********************************************************/
 
-  event DataAdded(uint id, address owner, bytes32 data, bool mutable);
-  event DataChanged(uint id, bytes32 oldData, bytes32 newData);
-  event OwnerChanged(uint id, address oldAddress, address newAddress);
+  event DataAdded(uint indexed id, address indexed owner, bytes32 data, bool mutable);
+  event DataChanged(uint indexed id, bytes32 oldData, bytes32 newData);
+  event OwnerChanged(uint indexed id, address oldAddress, address newAddress);
 
   /***********************************************************
    * DATA
